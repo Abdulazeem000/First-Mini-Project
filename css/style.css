@@ -1,0 +1,174 @@
+
+
+html,
+body{
+    
+ 
+    color: #555555;
+    font-family: 'Lato' , 'Arial' , 'san-serif';
+    background-image: url(images/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+    
+  
+   
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #00008B;
+        
+}
+
+.main-nav{
+    
+    display: flex; 
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 2%;
+   
+  
+    
+}
+
+.main-nav li{
+
+margin-left: 40px;
+
+
+
+    
+}
+
+
+
+.main-nav li a
+{
+
+ 
+color: white;
+text-decoration: none;    
+    
+}
+
+
+
+
+
+
+
+h1{
+
+  
+    margin-right: 50%;
+    color: white;
+ 
+    
+}
+
+
+h2{
+    
+    color: orange;
+    
+    
+}
+
+.list li {
+    
+    
+    color: orange;
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+         
+}
+
+.Info{
+   
+   
+
+    margin-left: 5%;
+    margin-top: 3%;
+    line-height: 145%;
+
+    
+    
+}
+
+
+.myimage{
+
+    width: auto;
+    margin: 7% auto;
+    border-radius: 15%;
+    
+
+}
+
+
+
+
+.box{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 9%;
+    margin-top: -5%;
+    background-color: black;
+    width: 480px;
+    
+}
+
+.box p{
+    
+    
+    color: white;
+    padding-left: 2%;
+    
+}
+
+
+
+
+.icon-small{
+
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 35%;
+    
+}
+
+footer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #00008B;
+    color: white;
+    width: auto;
+    margin-top: 6%;
+    font-size: 20px;
+    font-weight: bold;
+  
+ 
+}
+
+
+
+
+
+
